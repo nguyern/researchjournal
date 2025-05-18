@@ -263,7 +263,7 @@
         /* THIS SCRIPT IS LOADED VIA CDN AND ESSENTIALLY READS THE .csv FILE ROW BY ROW 
         TO GET THE VARIOUS `COMPONENTS` OF YOUR `JOURNAL` ONE `ENTRY` PER SECTION */
         $(document).ready(function () {
-            Papa.parse('ResearchJournal.csv', {
+            Papa.parse('researchjournal.csv', {
                 download: true,
                 header: true,
                 complete: function (results) {
