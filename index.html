@@ -27,38 +27,39 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: left;
-  padding: 4em;
+  text-align: center; /* changed from left to center for visual balance */
+  padding: 6em 2em; /* more vertical breathing room */
   flex-direction: column;
   height: 100vh;
 }
 
 .cover-content {
-  max-width: 900px;
+  max-width: 1000px;
   width: 100%;
   color: deeppink;
 }
 
 .cover h1 {
   font-family: "sloop-script-one", cursive;
-  font-size: 5em;
+  font-size: 6.5em; /* larger */
   margin-bottom: 0.5em;
+  line-height: 1em;
 }
 
 .cover h2 {
   font-family: monospace;
-  font-size: 1em;
-  margin-bottom: 2em;
-  color: deeppink;
+  font-size: 1.25em; /* slightly bigger */
+  font-weight: bold;
+  margin-bottom: 2.5em;
 }
 
 .cover ol {
   font-family: monospace;
-  font-size: 1em;
+  font-size: 1.1em; /* slightly larger */
   list-style: decimal;
-  padding-left: 1em;
+  padding-left: 1.5em;
   margin-bottom: 2em;
-  color: deeppink;
+  text-align: left; /* aligns nicely with numbers */
 }
 
 .cover a {
