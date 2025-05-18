@@ -34,9 +34,17 @@
 }
 
 .cover-content {
-  max-width: 1200px;
+  max-width: 1000px;
   width: 100%;
   color: deeppink;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* align text to the left */
+  justify-content: center;
+  gap: 2.5em; /* evenly spaced vertical gaps */
+  height: 100%;
+  text-align: left;
+  padding: 0 3em; /* optional: gives it some horizontal breathing room */
 }
 
 .cover h1 {
@@ -44,14 +52,12 @@
   font-size: 5.5em;
   font-weight: lighter;
   line-height: 1em;
-  margin-bottom: 1em;
 }
 
 .cover h2 {
   font-family: monospace;
   font-size: 1.5em; /* larger */
   font-weight: bold; /* fix bold */
-  margin-bottom: 2em;
 }
 
 .cover ol {
