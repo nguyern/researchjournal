@@ -26,7 +26,7 @@
         position: absolute;
         width: 100%;
         height: 100%;
-        background-image: url('https://source.unsplash.com/random/1600x900') no-repeat center center;
+       background-image: url('https://source.unsplash.com/random/1600x900') no-repeat center center; 
         background-repeat: no-repeat;
         background-size: cover;
         }
@@ -263,7 +263,7 @@
         /* THIS SCRIPT IS LOADED VIA CDN AND ESSENTIALLY READS THE .csv FILE ROW BY ROW 
         TO GET THE VARIOUS `COMPONENTS` OF YOUR `JOURNAL` ONE `ENTRY` PER SECTION */
         $(document).ready(function () {
-            Papa.parse('researchjournal.csv', {
+            Papa.parse('ResearchJournal.csv', {
                 download: true,
                 header: true,
                 complete: function (results) {
